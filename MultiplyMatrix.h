@@ -59,7 +59,7 @@ int **createSquareMatrix(int **matrix, int length, int max)
 
 	for (i = 0; i < length * length; i++)
 	{
-		matrix[0][i] = rand() % (max + 1);
+		matrix[0][i] = rand(); // % (max + 1);
 
 	}
 	return matrix;
